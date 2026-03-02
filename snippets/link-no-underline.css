@@ -1,0 +1,63 @@
+:root {
+  --hubbamax-pink: #c14f74;
+  --hubbamax-orange: #b56a2f;
+  --hubbamax-sand: #9a6b45;
+  --hubbamax-green: #4f8a5b;
+  --hubbamax-blue: #3f78a8;
+  --hubbamax-mauve: #8d5fa8;
+
+  --hubbamax-text: #3a3a3a;
+  --hubbamax-muted: #666666;
+  --hubbamax-border: #ddd5cc;
+  --hubbamax-soft-bg: #f7f3ee;
+  --hubbamax-card-bg: #fffaf5;
+}
+
+body {
+  --text-normal: var(--hubbamax-text);
+  --text-muted: var(--hubbamax-muted);
+  --background-primary: var(--hubbamax-card-bg);
+  --background-secondary: var(--hubbamax-soft-bg);
+  --background-modifier-border: var(--hubbamax-border);
+
+  --text-accent: var(--hubbamax-pink);
+  --text-accent-hover: #a74363;
+
+  --link-color: var(--hubbamax-blue);
+  --link-color-hover: #325f86;
+  --link-external-color: var(--hubbamax-green);
+  --link-external-color-hover: #3f6f49;
+  --link-unresolved-color: var(--hubbamax-mauve);
+
+  --link-decoration: none;
+  --link-external-decoration: none;
+  --link-decoration-hover: none;
+  --link-external-decoration-hover: none;
+
+  --tag-color: var(--hubbamax-mauve);
+  --tag-background: #f3eaf9;
+  --tag-color-hover: #7b5192;
+  --tag-background-hover: #eadcf3;
+
+  --text-highlight-bg: #f6e9bf;
+}
+
+.markdown-rendered a,
+.markdown-rendered .internal-link,
+.markdown-rendered .external-link,
+.markdown-rendered a:hover,
+.markdown-rendered .internal-link:hover,
+.markdown-rendered .external-link:hover,
+.markdown-source-view.mod-cm6 .cm-link,
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link,
+.markdown-source-view.mod-cm6 .cm-url,
+.markdown-source-view.mod-cm6 .external-link,
+.markdown-source-view.mod-cm6 .cm-link:hover,
+.markdown-source-view.mod-cm6 .cm-hmd-internal-link:hover,
+.markdown-source-view.mod-cm6 .external-link:hover {
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  border-bottom: 0 !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
