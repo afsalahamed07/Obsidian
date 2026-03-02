@@ -1,5 +1,16 @@
 .DS_Store
-plugins
-workspace.json
-community-plugins.json
 
+# Obsidian local/volatile state
+workspace.json
+workspace-mobile.json
+cache/
+caches/
+snapshots/
+.trash/
+
+# Plugin runtime data (usually machine/user specific)
+plugins/*/data.json
+
+# Optional plugin temp/log folders
+plugins/**/logs/
+plugins/**/tmp/
