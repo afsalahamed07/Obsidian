@@ -1,14 +1,12 @@
 {
-  "cssTheme": "",
-  "theme": "moonstone",
+  "cssTheme": "Hubbamax",
+  "theme": "obsidian",
   "monospaceFontFamily": "Maple Mono NF",
   "textFontFamily": "Maple Mono NF",
   "baseFontSize": 18,
   "baseFontSizeAction": true,
   "interfaceFontFamily": "Maple Mono NF",
   "enabledCssSnippets": [
-    "line-height",
-    "heading-colors",
-    "link-no-underline"
+    "line-height"
   ]
 }
